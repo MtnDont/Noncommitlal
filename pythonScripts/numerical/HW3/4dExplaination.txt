@@ -1,0 +1,5 @@
+Runge-Kutta Method Output:
+0.046421828778695 0.046419903226702 0.046419903065459 0.046419903065442
+Plot provided
+
+The estimated slope is found to be about 4.077066 which is close to the theoretical slope of Runge-Kutta method of order 4.

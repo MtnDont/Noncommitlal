@@ -1,0 +1,22 @@
+The issue displayed in output3.txt is that a solution set does not exist for the matrix
+x + 2y + 3z = -5
+4x + 5y + 6z = 3
+7x + 8y + 9z = 11
+
+A = 1 2 3
+    4 5 6
+    7 8 9
+b = -5
+    3
+    11
+Calculating the determinate of the matrix A shows that it equals 0 as shown below:
+det(A) = 1(5*9 - 6*7) - 2(4*9 - 6*8) + 3(4*8 - 5*7) = 0
+
+Theory tells you that Ax = b has a unique solution if det(A) != 0 and otherwise it has no
+solution or infinitely many.
+
+Through the 3rd iteration of the matrix in the gauss_elim(A, b) function, the matrix 
+contains a zero row that equals 8. 0 != 8, therefore the matrix has no solution for
+Ax = b. Issues are thrown during the back_sub(Ab, n) when division is being used on the zero
+row as a number cannot be divided by 0 further supporting that the matrix has no solution
+for Ax = b.

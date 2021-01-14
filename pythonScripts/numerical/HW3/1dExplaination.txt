@@ -1,0 +1,5 @@
+Euler Method Output:
+0.093126557210908 0.050814750112372 0.047108971712204 0.046488780284927
+Plot provided
+
+The estimated slope is found to be about 0.929859 which is close to the theoretical slope of Euler methods of 1.

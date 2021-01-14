@@ -1,0 +1,5 @@
+Taylor Order 2 Method Output:
+0.041521733977204 0.046375987128893 0.046671510261414 0.046445113075319
+Plot provided
+
+The estimated slope is found to be about 2.047411 which is close to the theoretical slope of Taylor method of order 2.

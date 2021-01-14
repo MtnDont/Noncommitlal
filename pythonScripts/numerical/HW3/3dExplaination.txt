@@ -1,0 +1,5 @@
+Taylor Order 3 Method Output:
+0.046918375971590 0.046420329633915 0.046671945077871 0.046445117413759
+Plot provided
+
+The estimated slope is found to be about 3.067652 which is close to the theoretical slope of Taylor method of order 3.
